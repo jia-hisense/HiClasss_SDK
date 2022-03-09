@@ -1,0 +1,11 @@
+framework module iOS_Networking_CPN {
+  umbrella header "iOS_Networking_CPN-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module iOS_Networking_CPN.Swift {
+    header "iOS_Networking_CPN-Swift.h"
+    requires objc
+}

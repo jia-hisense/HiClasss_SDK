@@ -1,0 +1,31 @@
+/*
+ Localizable.strings
+ libMeetings
+ 
+ Created by miniMac on 16/2/24.
+ Copyright © 2016年 macmini. All rights reserved.
+ */
+
+"Prompt.OK" = "確定";
+"Prompt.Cancel" = "キャンセル";
+
+"ToolBar.Previous" = "前の";
+"toolbar.next" = "次へ";
+"toolbar.delete" = "削除する";
+"toolbar.edit" = "編集";
+
+"emptyview.nodata" = "このページはからっぽ…";
+"EmptyView.NetworkError" = "ネットリンクが一時的に失敗…";
+"emptyview.othererror" = "すみません、ページに問題があります";
+"emptyview.freshtext" = "画面を軽くするだけでリフレッシュしてリトライする";
+"emptyview.buttontext" = "クリックして再試行";
+
+"Fresh.Default.NormalHeaderText" = "下を更新できる";
+"Fresh.Default.WillLoadHeaderText" = "直ちに更新を离";
+"Fresh.Default.LoadingHeaderText" = "データを更新中…";
+
+"Fresh.Default.NormalFooterText" = "で引いてノード多くできる";
+"Fresh.Default.AutoNormalFooterText" = "ノード多くクリックで引いたりできる";
+"Fresh.Default.WilllLoadFooterText" = "直ちにノードの多くを离";
+"Fresh.Default.LoadingFooterText" = "ノードの多くのデータをしている…";
+"Fresh.Default.NoMoredataFooterText" = "すべてノード済み";

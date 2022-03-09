@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HICIntegralTaskHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="236"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_integral" translatesAutoresizingMaskIntoConstraints="NO" id="adG-0t-cIS">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="146"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="146" id="crF-A9-o3I"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbp-WB-SBJ">
+                    <rect key="frame" x="175" y="42" width="25" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="nYd-9U-GJL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lj6-GO-HNb">
+                    <rect key="frame" x="0.0" y="146" width="375" height="80"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQT-2e-Ti0">
+                            <rect key="frame" x="187.5" y="16" width="0.5" height="48"/>
+                            <color key="backgroundColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="0.5" id="19L-GE-27q"/>
+                                <constraint firstAttribute="height" constant="48" id="1lq-a7-m9l"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="积分明细" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbC-AW-pAX">
+                            <rect key="frame" x="187.5" y="52" width="187.5" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="484-jI-39s"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.52156862749999999" green="0.52156862749999999" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVf-Ab-v20">
+                            <rect key="frame" x="79" y="16" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="1Bw-7b-3uy"/>
+                                <constraint firstAttribute="height" constant="30" id="E4H-cD-ssw"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="icon_integralRank">
+                                <color key="titleColor" systemColor="labelColor"/>
+                            </state>
+                            <connections>
+                                <action selector="btnScoreRankAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="LwP-bj-Jkh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rL9-mg-yQp">
+                            <rect key="frame" x="266.5" y="16" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="wvf-3J-i8v"/>
+                                <constraint firstAttribute="width" constant="30" id="yvQ-EH-Fpy"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="" image="icon_integralSubsidiary"/>
+                            <connections>
+                                <action selector="btnScoreDetailsAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="nNk-rg-I8v"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="积分榜" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2M-8r-yBM">
+                            <rect key="frame" x="0.0" y="52" width="187.5" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="JyS-rh-S4a"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.52156862749999999" green="0.52156862749999999" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="rL9-mg-yQp" firstAttribute="top" secondItem="lj6-GO-HNb" secondAttribute="top" constant="16" id="864-0a-nOd"/>
+                        <constraint firstItem="rQT-2e-Ti0" firstAttribute="leading" secondItem="C2M-8r-yBM" secondAttribute="trailing" id="PcY-Xo-Bgv"/>
+                        <constraint firstAttribute="trailing" secondItem="wbC-AW-pAX" secondAttribute="trailing" id="SWr-CR-JeW"/>
+                        <constraint firstItem="rQT-2e-Ti0" firstAttribute="centerY" secondItem="lj6-GO-HNb" secondAttribute="centerY" id="SdI-os-Mmr"/>
+                        <constraint firstItem="C2M-8r-yBM" firstAttribute="leading" secondItem="lj6-GO-HNb" secondAttribute="leading" id="XkR-M1-MWX"/>
+                        <constraint firstItem="wbC-AW-pAX" firstAttribute="top" secondItem="rL9-mg-yQp" secondAttribute="bottom" constant="6" id="YHd-cd-fKK"/>
+                        <constraint firstItem="DVf-Ab-v20" firstAttribute="top" secondItem="lj6-GO-HNb" secondAttribute="top" constant="16" id="eAT-7f-EaE"/>
+                        <constraint firstAttribute="height" constant="80" id="fg1-X1-pMQ"/>
+                        <constraint firstItem="C2M-8r-yBM" firstAttribute="centerX" secondItem="DVf-Ab-v20" secondAttribute="centerX" id="jHA-0K-NH9"/>
+                        <constraint firstItem="wbC-AW-pAX" firstAttribute="centerX" secondItem="rL9-mg-yQp" secondAttribute="centerX" id="kfz-CD-bX1"/>
+                        <constraint firstItem="wbC-AW-pAX" firstAttribute="width" secondItem="C2M-8r-yBM" secondAttribute="width" id="rWz-ZV-dyK"/>
+                        <constraint firstItem="wbC-AW-pAX" firstAttribute="leading" secondItem="C2M-8r-yBM" secondAttribute="trailing" id="sje-OM-K5C"/>
+                        <constraint firstItem="C2M-8r-yBM" firstAttribute="top" secondItem="DVf-Ab-v20" secondAttribute="bottom" constant="6" id="ubA-wa-BKK"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="BKa-JW-Ltd"/>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="lj6-GO-HNb" firstAttribute="top" secondItem="adG-0t-cIS" secondAttribute="bottom" id="1Nf-fg-Gm4"/>
+                <constraint firstItem="adG-0t-cIS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="76a-uW-ViH"/>
+                <constraint firstItem="adG-0t-cIS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BG1-ye-xEm"/>
+                <constraint firstItem="lbp-WB-SBJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="42" id="Cqz-RL-UUv"/>
+                <constraint firstItem="lbp-WB-SBJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Dgp-o4-uTi"/>
+                <constraint firstItem="lj6-GO-HNb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Sye-dt-m1B"/>
+                <constraint firstItem="adG-0t-cIS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sZC-JL-hbG"/>
+                <constraint firstAttribute="trailing" secondItem="lj6-GO-HNb" secondAttribute="trailing" id="teZ-uf-d5q"/>
+                <constraint firstAttribute="trailing" secondItem="adG-0t-cIS" secondAttribute="trailing" id="y15-M3-SkD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnScoreRank" destination="DVf-Ab-v20" id="f73-dj-KJD"/>
+                <outlet property="lbAllScore" destination="lbp-WB-SBJ" id="w2s-2x-yIL"/>
+                <outlet property="lbIntegralSubsidiary" destination="wbC-AW-pAX" id="qxs-0W-JVk"/>
+                <outlet property="lbScoreRank" destination="C2M-8r-yBM" id="40c-gr-UL9"/>
+                <outlet property="leftDistence" destination="sje-OM-K5C" id="U9y-TQ-jBZ"/>
+                <outlet property="line" destination="rQT-2e-Ti0" id="9Pt-0U-nW1"/>
+            </connections>
+            <point key="canvasLocation" x="158.69565217391306" y="-261.83035714285711"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_integral" width="750" height="420"/>
+        <image name="icon_integralRank" width="30" height="30"/>
+        <image name="icon_integralSubsidiary" width="30" height="30"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

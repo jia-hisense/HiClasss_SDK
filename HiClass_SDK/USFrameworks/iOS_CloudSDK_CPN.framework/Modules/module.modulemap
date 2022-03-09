@@ -1,0 +1,11 @@
+framework module iOS_CloudSDK_CPN {
+  umbrella header "iOS_CloudSDK_CPN-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module iOS_CloudSDK_CPN.Swift {
+    header "iOS_CloudSDK_CPN-Swift.h"
+    requires objc
+}

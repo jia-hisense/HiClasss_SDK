@@ -1,0 +1,44 @@
+//
+//  ZhiYu_Dev.xcconfig
+//  HiClass
+//
+//  Created by jiafujia on 2022/2/25.
+//  Copyright © 2022 hisense. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-HiClass_SDK/Pods-HiClass_SDK.zhiyu_dev.xcconfig"
+
+APP_NAME = 知渔学堂
+APP_ICON = AppIcon-zhiyu
+APP_LAUNCHSCREEN = LaunchScreenZhiYu
+APP_BUNDLE_ID = com.hisense.zhiyu
+
+// 阿里推送
+APP_ALI_KEY = 333533215
+APP_ALI_SECRET = f783facfe6b042c486e1014d7a059220
+
+// 日志上报
+APP_LOGREPORT_KEY = 1188868631
+APP_BUGLY_ID = 191024cc42
+
+// 应用接口域名
+APP_ACC_DOMAIN = https:/$()/acc-zhiyu.hismarttv.com
+// 默认考试域名
+APP_EXAM_DOMAIN = https:/$()/api-zhiyu-mobi.hismarttv.com
+// 默认评论域名\HEDU通用域名
+APP_COMMENTS_DOMAIN = https:/$()/api-hedu-mobi.hismarttv.com
+// 应用升级域名
+APP_UPGRADE_DOMAIN = http:/$()/upgrade-zhiyu-phone.hismarttv.com
+// 网页链接域名
+APP_Web_DOMAIN = https:/$()/web-zhiyu.hismarttv.com
+// 文件上传域名
+APP_UPLOAD_DOMAIN = https:/$()/upload-zhiyu-mobi.hismarttv.com
+APP_DOC_CDN_DOMAIN = https:/$()/doc-cdn-zhiyu.hismarttv.com
+APP_GPS_DOMAIN = https:/$()/api-gps-zhiyu.hismarttv.com
+// 推送域名
+APP_PUSH_DOMAIN = https:/$()/msg-zhiyu-mobi.hismarttv.com
+// App Store链接地址
+APP_APPSTORE_URL = https:/$()/apps.apple.com/us/app/知渔/id1590964987

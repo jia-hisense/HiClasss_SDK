@@ -1,0 +1,1064 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CC018C4F5DFB5BB4BDCFD7D /* Pods_HiClass_SDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F19153FFD0D3F8E209FFA9 /* Pods_HiClass_SDK_Tests.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* HICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* HICAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* HICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HICViewController.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		885E219F4B76E0602CC5EBC9 /* Pods_HiClass_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D0DD2FE75BF428FEE6D036 /* Pods_HiClass_SDK.framework */; };
+		DB39C19D27D5A4FC00F4337B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB39C19C27D5A4FC00F4337B /* Main.storyboard */; };
+		DB39C1A027D5A59900F4337B /* LaunchScreenHiClass.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB39C19E27D5A59900F4337B /* LaunchScreenHiClass.storyboard */; };
+		DB39C1A127D5A59900F4337B /* LaunchScreenZhiYu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB39C19F27D5A59900F4337B /* LaunchScreenZhiYu.storyboard */; };
+		DBC7FC9827D1E7D000C15442 /* HiClass_LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC7FC9427D1E7CB00C15442 /* HiClass_LaunchImage@2x.png */; };
+		DBC7FC9927D1E7D000C15442 /* HiClass_LaunchImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC7FC9527D1E7CD00C15442 /* HiClass_LaunchImage@3x.png */; };
+		DBC7FC9A27D1E7D000C15442 /* ZhiYu_LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC7FC9627D1E7CE00C15442 /* ZhiYu_LaunchImage@2x.png */; };
+		DBC7FC9B27D1E7D000C15442 /* ZhiYu_LaunchImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC7FC9727D1E7D000C15442 /* ZhiYu_LaunchImage@3x.png */; };
+		DBC7FCB327D1F9DC00C15442 /* ZhiYu_Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DBC7FCAF27D1F9D800C15442 /* ZhiYu_Dev.xcconfig */; };
+		DBC7FCB427D1F9DC00C15442 /* ZhiYu_Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DBC7FCB027D1F9D900C15442 /* ZhiYu_Release.xcconfig */; };
+		DBC7FCB527D1F9DC00C15442 /* HiClass_Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DBC7FCB127D1F9DA00C15442 /* HiClass_Dev.xcconfig */; };
+		DBC7FCB627D1F9DC00C15442 /* HiClass_Beta.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DBC7FCB227D1F9DC00C15442 /* HiClass_Beta.xcconfig */; };
+		DBE0D4EB27D5EB94000A9E50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBE0D4ED27D5EB94000A9E50 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = HiClass_SDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		515C835485D2636BAC513B48 /* Pods-HiClass_SDK_Tests.hiclass_release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiClass_SDK_Tests.hiclass_release.xcconfig"; path = "Target Support Files/Pods-HiClass_SDK_Tests/Pods-HiClass_SDK_Tests.hiclass_release.xcconfig"; sourceTree = "<group>"; };
+		5BABA41D08149027A0962A93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* HiClass_SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiClass_SDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* HiClass_SDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiClass_SDK-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* HICAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HICAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* HICAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HICAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* HICViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HICViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* HICViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HICViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* HiClass_SDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiClass_SDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6198A1E75149F7B74BF86C89 /* Pods-HiClass_SDK_Tests.hiclass_debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiClass_SDK_Tests.hiclass_debug.xcconfig"; path = "Target Support Files/Pods-HiClass_SDK_Tests/Pods-HiClass_SDK_Tests.hiclass_debug.xcconfig"; sourceTree = "<group>"; };
+		809BA5D0EAD20C6F4BD8E72E /* Pods-HiClass_SDK_Tests.zhiyu_release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiClass_SDK_Tests.zhiyu_release.xcconfig"; path = "Target Support Files/Pods-HiClass_SDK_Tests/Pods-HiClass_SDK_Tests.zhiyu_release.xcconfig"; sourceTree = "<group>"; };
+		81D0DD2FE75BF428FEE6D036 /* Pods_HiClass_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiClass_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E734053590F2A0A00FB5B9 /* Pods-HiClass_SDK_Tests.hiclass_beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiClass_SDK_Tests.hiclass_beta.xcconfig"; path = "Target Support Files/Pods-HiClass_SDK_Tests/Pods-HiClass_SDK_Tests.hiclass_beta.xcconfig"; sourceTree = "<group>"; };
+		99A0DA0925B6007A807F5F22 /* Pods-HiClass_SDK.zhiyu_dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiClass_SDK.zhiyu_dev.xcconfig"; path = "Target Support Files/Pods-HiClass_SDK/Pods-HiClass_SDK.zhiyu_dev.xcconfig"; sourceTree = "<group>"; };
+		AE23A61E6F326236DBA0851F /* HiClass_SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HiClass_SDK.podspec; path = ../HiClass_SDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0FAE186C572F3A3DA9ECD5B /* Pods-HiClass_SDK.hiclass_beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiClass_SDK.hiclass_beta.xcconfig"; path = "Target Support Files/Pods-HiClass_SDK/Pods-HiClass_SDK.hiclass_beta.xcconfig"; sourceTree = "<group>"; };
+		B600B308343326123BF481D5 /* Pods-HiClass_SDK.hiclass_release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiClass_SDK.hiclass_release.xcconfig"; path = "Target Support Files/Pods-HiClass_SDK/Pods-HiClass_SDK.hiclass_release.xcconfig"; sourceTree = "<group>"; };
+		C2151E58B382C9D159D8E93A /* Pods-HiClass_SDK.zhiyu_release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiClass_SDK.zhiyu_release.xcconfig"; path = "Target Support Files/Pods-HiClass_SDK/Pods-HiClass_SDK.zhiyu_release.xcconfig"; sourceTree = "<group>"; };
+		D2D85020AFB9366F185481C0 /* Pods-HiClass_SDK_Tests.zhiyu_dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiClass_SDK_Tests.zhiyu_dev.xcconfig"; path = "Target Support Files/Pods-HiClass_SDK_Tests/Pods-HiClass_SDK_Tests.zhiyu_dev.xcconfig"; sourceTree = "<group>"; };
+		DB0F6D9127D5969300C807AF /* HiClass_Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = HiClass_Release.xcconfig; sourceTree = "<group>"; };
+		DB39C19C27D5A4FC00F4337B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DB39C19E27D5A59900F4337B /* LaunchScreenHiClass.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreenHiClass.storyboard; sourceTree = "<group>"; };
+		DB39C19F27D5A59900F4337B /* LaunchScreenZhiYu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreenZhiYu.storyboard; sourceTree = "<group>"; };
+		DB39C1B127D5C9F500F4337B /* HiClass_SDK-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HiClass_SDK-Info.plist"; sourceTree = "<group>"; };
+		DBC7FC9427D1E7CB00C15442 /* HiClass_LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HiClass_LaunchImage@2x.png"; sourceTree = "<group>"; };
+		DBC7FC9527D1E7CD00C15442 /* HiClass_LaunchImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HiClass_LaunchImage@3x.png"; sourceTree = "<group>"; };
+		DBC7FC9627D1E7CE00C15442 /* ZhiYu_LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZhiYu_LaunchImage@2x.png"; sourceTree = "<group>"; };
+		DBC7FC9727D1E7D000C15442 /* ZhiYu_LaunchImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZhiYu_LaunchImage@3x.png"; sourceTree = "<group>"; };
+		DBC7FCAE27D1F04A00C15442 /* HiClass_SDK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = HiClass_SDK.entitlements; path = HiClass_SDK/HiClass_SDK.entitlements; sourceTree = "<group>"; };
+		DBC7FCAF27D1F9D800C15442 /* ZhiYu_Dev.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ZhiYu_Dev.xcconfig; sourceTree = "<group>"; };
+		DBC7FCB027D1F9D900C15442 /* ZhiYu_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ZhiYu_Release.xcconfig; sourceTree = "<group>"; };
+		DBC7FCB127D1F9DA00C15442 /* HiClass_Dev.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = HiClass_Dev.xcconfig; sourceTree = "<group>"; };
+		DBC7FCB227D1F9DC00C15442 /* HiClass_Beta.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = HiClass_Beta.xcconfig; sourceTree = "<group>"; };
+		DBE0D4EC27D5EB94000A9E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBE0D4EE27D5EB97000A9E50 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DBE0D4EF27D5EB9A000A9E50 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBE0D4F227D607D3000A9E50 /* HiClassInfo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HiClassInfo; sourceTree = "<group>"; };
+		DBE0D4F327D607D3000A9E50 /* ZhiYuInfo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ZhiYuInfo; sourceTree = "<group>"; };
+		DBE0D4F427D607D3000A9E50 /* HiClassBetaInfo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HiClassBetaInfo; sourceTree = "<group>"; };
+		DE3D13C06E49156363DB1864 /* Pods-HiClass_SDK.hiclass_debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiClass_SDK.hiclass_debug.xcconfig"; path = "Target Support Files/Pods-HiClass_SDK/Pods-HiClass_SDK.hiclass_debug.xcconfig"; sourceTree = "<group>"; };
+		E5F19153FFD0D3F8E209FFA9 /* Pods_HiClass_SDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiClass_SDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB154C8312BB3A250D6560E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				885E219F4B76E0602CC5EBC9 /* Pods_HiClass_SDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				1CC018C4F5DFB5BB4BDCFD7D /* Pods_HiClass_SDK_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				DBE0D4F427D607D3000A9E50 /* HiClassBetaInfo */,
+				DBE0D4F227D607D3000A9E50 /* HiClassInfo */,
+				DBE0D4F327D607D3000A9E50 /* ZhiYuInfo */,
+				DB39C19427D59E7400F4337B /* Configurations */,
+				DBC7FCAE27D1F04A00C15442 /* HiClass_SDK.entitlements */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* HiClass */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				D84606040AACDB2EC31DB25F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* HiClass_SDK.app */,
+				6003F5AE195388D20070C39A /* HiClass_SDK_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				81D0DD2FE75BF428FEE6D036 /* Pods_HiClass_SDK.framework */,
+				E5F19153FFD0D3F8E209FFA9 /* Pods_HiClass_SDK_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* HiClass */ = {
+			isa = PBXGroup;
+			children = (
+				DB39C1B127D5C9F500F4337B /* HiClass_SDK-Info.plist */,
+				DB39C19E27D5A59900F4337B /* LaunchScreenHiClass.storyboard */,
+				DB39C19F27D5A59900F4337B /* LaunchScreenZhiYu.storyboard */,
+				6003F59C195388D20070C39A /* HICAppDelegate.h */,
+				6003F59D195388D20070C39A /* HICAppDelegate.m */,
+				DB39C19C27D5A4FC00F4337B /* Main.storyboard */,
+				6003F5A5195388D20070C39A /* HICViewController.h */,
+				6003F5A6195388D20070C39A /* HICViewController.m */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				DBC7FC9C27D1E80400C15442 /* LaunchImages */,
+				6003F594195388D20070C39A /* Supporting Files */,
+				DBE0D4ED27D5EB94000A9E50 /* InfoPlist.strings */,
+			);
+			name = HiClass;
+			path = HiClass_SDK;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* HiClass_SDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				AE23A61E6F326236DBA0851F /* HiClass_SDK.podspec */,
+				5BABA41D08149027A0962A93 /* README.md */,
+				FB154C8312BB3A250D6560E2 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D84606040AACDB2EC31DB25F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE3D13C06E49156363DB1864 /* Pods-HiClass_SDK.hiclass_debug.xcconfig */,
+				B0FAE186C572F3A3DA9ECD5B /* Pods-HiClass_SDK.hiclass_beta.xcconfig */,
+				99A0DA0925B6007A807F5F22 /* Pods-HiClass_SDK.zhiyu_dev.xcconfig */,
+				B600B308343326123BF481D5 /* Pods-HiClass_SDK.hiclass_release.xcconfig */,
+				C2151E58B382C9D159D8E93A /* Pods-HiClass_SDK.zhiyu_release.xcconfig */,
+				6198A1E75149F7B74BF86C89 /* Pods-HiClass_SDK_Tests.hiclass_debug.xcconfig */,
+				86E734053590F2A0A00FB5B9 /* Pods-HiClass_SDK_Tests.hiclass_beta.xcconfig */,
+				D2D85020AFB9366F185481C0 /* Pods-HiClass_SDK_Tests.zhiyu_dev.xcconfig */,
+				515C835485D2636BAC513B48 /* Pods-HiClass_SDK_Tests.hiclass_release.xcconfig */,
+				809BA5D0EAD20C6F4BD8E72E /* Pods-HiClass_SDK_Tests.zhiyu_release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB39C19427D59E7400F4337B /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				DB0F6D9127D5969300C807AF /* HiClass_Release.xcconfig */,
+				DBC7FCB227D1F9DC00C15442 /* HiClass_Beta.xcconfig */,
+				DBC7FCB127D1F9DA00C15442 /* HiClass_Dev.xcconfig */,
+				DBC7FCAF27D1F9D800C15442 /* ZhiYu_Dev.xcconfig */,
+				DBC7FCB027D1F9D900C15442 /* ZhiYu_Release.xcconfig */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		DBC7FC9C27D1E80400C15442 /* LaunchImages */ = {
+			isa = PBXGroup;
+			children = (
+				DBC7FC9427D1E7CB00C15442 /* HiClass_LaunchImage@2x.png */,
+				DBC7FC9527D1E7CD00C15442 /* HiClass_LaunchImage@3x.png */,
+				DBC7FC9627D1E7CE00C15442 /* ZhiYu_LaunchImage@2x.png */,
+				DBC7FC9727D1E7D000C15442 /* ZhiYu_LaunchImage@3x.png */,
+			);
+			name = LaunchImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* HiClass_SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "HiClass_SDK" */;
+			buildPhases = (
+				394207EA0359070E0B4F99C8 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				9E135AA6B3F56E641866106A /* [CP] Embed Pods Frameworks */,
+				D3E309A37A61A6BEF0BF000E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiClass_SDK;
+			productName = HiClass_SDK;
+			productReference = 6003F58A195388D20070C39A /* HiClass_SDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* HiClass_SDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "HiClass_SDK_Tests" */;
+			buildPhases = (
+				174AEDD2CDB8B5323C40E8EE /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = HiClass_SDK_Tests;
+			productName = HiClass_SDKTests;
+			productReference = 6003F5AE195388D20070C39A /* HiClass_SDK_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HIC;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hisense;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 834H4LCLKU;
+					};
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "HiClass_SDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				ja,
+				"zh-Hans",
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* HiClass_SDK */,
+				6003F5AD195388D20070C39A /* HiClass_SDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC7FC9827D1E7D000C15442 /* HiClass_LaunchImage@2x.png in Resources */,
+				DBC7FCB427D1F9DC00C15442 /* ZhiYu_Release.xcconfig in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				DBC7FCB627D1F9DC00C15442 /* HiClass_Beta.xcconfig in Resources */,
+				DBE0D4EB27D5EB94000A9E50 /* InfoPlist.strings in Resources */,
+				DB39C1A127D5A59900F4337B /* LaunchScreenZhiYu.storyboard in Resources */,
+				DBC7FC9B27D1E7D000C15442 /* ZhiYu_LaunchImage@3x.png in Resources */,
+				DB39C19D27D5A4FC00F4337B /* Main.storyboard in Resources */,
+				DBC7FCB527D1F9DC00C15442 /* HiClass_Dev.xcconfig in Resources */,
+				DB39C1A027D5A59900F4337B /* LaunchScreenHiClass.storyboard in Resources */,
+				DBC7FC9A27D1E7D000C15442 /* ZhiYu_LaunchImage@2x.png in Resources */,
+				DBC7FC9927D1E7D000C15442 /* HiClass_LaunchImage@3x.png in Resources */,
+				DBC7FCB327D1F9DC00C15442 /* ZhiYu_Dev.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		174AEDD2CDB8B5323C40E8EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiClass_SDK_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		394207EA0359070E0B4F99C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiClass_SDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E135AA6B3F56E641866106A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiClass_SDK/Pods-HiClass_SDK-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${PODS_ROOT}/Cronet/Frameworks/Cronet.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${PODS_ROOT}/../../HiClass_SDK/USFrameworks/HIClassSwift_SDK.framework",
+				"${PODS_ROOT}/../../HiClass_SDK/USFrameworks/iOS_CloudSDK_CPN.framework",
+				"${PODS_ROOT}/../../HiClass_SDK/USFrameworks/iOS_LogReport_CPN.framework",
+				"${PODS_ROOT}/../../HiClass_SDK/USFrameworks/iOS_Networking_CPN.framework",
+				"${PODS_ROOT}/../../HiClass_SDK/USFrameworks/JHKPushSDK.framework",
+				"${PODS_ROOT}/../../HiClass_SDK/USFrameworks/PopView.framework",
+				"${PODS_ROOT}/../../HiClass_SDK/USFrameworks/VideoPlayerSDK/JHKVideoPlayerSDK.framework",
+				"${PODS_ROOT}/../../HiClass_SDK/USFrameworks/VideoPlayerSDK/MBProgressHUD.framework",
+				"${PODS_ROOT}/../../HiClass_SDK/USFrameworks/VideoPlayerSDK/Reachability.framework",
+				"${PODS_ROOT}/../../HiClass_SDK/USFrameworks/YSLib/expandLib/CloudHubRTC.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/RealReachability/RealReachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cronet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HIClassSwift_SDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_CloudSDK_CPN.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_LogReport_CPN.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Networking_CPN.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JHKPushSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JHKVideoPlayerSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CloudHubRTC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealReachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiClass_SDK/Pods-HiClass_SDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E309A37A61A6BEF0BF000E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiClass_SDK/Pods-HiClass_SDK-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${BUILT_PRODUCTS_DIR}/HiClass_SDK/HiClass_SDK.framework/HICIntegralTaskHeadView.nib",
+				"${BUILT_PRODUCTS_DIR}/HiClass_SDK/HiClass_SDK.framework/HICMyScoreViewController.nib",
+				"${BUILT_PRODUCTS_DIR}/HiClass_SDK/HiClass_SDK.framework/HICScoreDetailTableViewCell.nib",
+				"${BUILT_PRODUCTS_DIR}/HiClass_SDK/HiClass_SDK.framework/HICScoreTaskTableViewCell.nib",
+				"${BUILT_PRODUCTS_DIR}/HiClass_SDK/HiClass_SDK.framework/JHKOfflineCourseView.nib",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HiClass_SDK/HiClass_SDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HICIntegralTaskHeadView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HICMyScoreViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HICScoreDetailTableViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HICScoreTaskTableViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JHKOfflineCourseView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HiClass_SDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiClass_SDK/Pods-HiClass_SDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F59E195388D20070C39A /* HICAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* HICViewController.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* HiClass_SDK */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBE0D4ED27D5EB94000A9E50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE0D4EC27D5EB94000A9E50 /* en */,
+				DBE0D4EE27D5EB97000A9E50 /* zh-Hans */,
+				DBE0D4EF27D5EB9A000A9E50 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* HiClass_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = HiClass_Debug;
+		};
+		6003F5BE195388D20070C39A /* HiClass_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = HiClass_Release;
+		};
+		6003F5C0195388D20070C39A /* HiClass_Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC7FCB127D1F9DA00C15442 /* HiClass_Dev.xcconfig */;
+			buildSettings = {
+				APP_LAUNCHSCREEN = LaunchScreenHiClass;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON)";
+				CODE_SIGN_ENTITLEMENTS = HiClass_SDK/HiClass_SDK.entitlements;
+				DEVELOPMENT_TEAM = 834H4LCLKU;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = armv7;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = armv7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiClass_SDK/HiClass_SDK-Prefix.pch";
+				INFOPLIST_FILE = "HiClass_SDK/HiClass_SDK-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = "$(APP_LAUNCHSCREEN)";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = HiClass_Debug;
+		};
+		6003F5C1195388D20070C39A /* HiClass_Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0F6D9127D5969300C807AF /* HiClass_Release.xcconfig */;
+			buildSettings = {
+				APP_LAUNCHSCREEN = LaunchScreenHiClass;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON)";
+				CODE_SIGN_ENTITLEMENTS = HiClass_SDK/HiClass_SDK.entitlements;
+				DEVELOPMENT_TEAM = 834H4LCLKU;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = armv7;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = armv7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiClass_SDK/HiClass_SDK-Prefix.pch";
+				INFOPLIST_FILE = "HiClass_SDK/HiClass_SDK-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = "$(APP_LAUNCHSCREEN)";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = HiClass_Release;
+		};
+		6003F5C3195388D20070C39A /* HiClass_Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6198A1E75149F7B74BF86C89 /* Pods-HiClass_SDK_Tests.hiclass_debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiClass_SDK_Example.app/HiClass_SDK_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = HiClass_Debug;
+		};
+		6003F5C4195388D20070C39A /* HiClass_Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515C835485D2636BAC513B48 /* Pods-HiClass_SDK_Tests.hiclass_release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiClass_SDK_Example.app/HiClass_SDK_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = HiClass_Release;
+		};
+		DBC7FCAB27D1E9C800C15442 /* ZhiYu_Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ZhiYu_Dev;
+		};
+		DBC7FCAC27D1E9C800C15442 /* ZhiYu_Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC7FCAF27D1F9D800C15442 /* ZhiYu_Dev.xcconfig */;
+			buildSettings = {
+				APP_LAUNCHSCREEN = LaunchScreenZhiYu;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON)";
+				CODE_SIGN_ENTITLEMENTS = HiClass_SDK/HiClass_SDK.entitlements;
+				DEVELOPMENT_TEAM = 4XXN38ECKL;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = armv7;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = armv7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiClass_SDK/HiClass_SDK-Prefix.pch";
+				INFOPLIST_FILE = "HiClass_SDK/HiClass_SDK-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = "$(APP_LAUNCHSCREEN)";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = ZhiYu_Dev;
+		};
+		DBC7FCAD27D1E9C800C15442 /* ZhiYu_Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D85020AFB9366F185481C0 /* Pods-HiClass_SDK_Tests.zhiyu_dev.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiClass_SDK_Example.app/HiClass_SDK_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = ZhiYu_Dev;
+		};
+		DBC7FCB827D1FB2000C15442 /* HiClass_Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = HiClass_Beta;
+		};
+		DBC7FCB927D1FB2000C15442 /* HiClass_Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC7FCB227D1F9DC00C15442 /* HiClass_Beta.xcconfig */;
+			buildSettings = {
+				APP_LAUNCHSCREEN = LaunchScreenHiClass;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON)";
+				CODE_SIGN_ENTITLEMENTS = HiClass_SDK/HiClass_SDK.entitlements;
+				DEVELOPMENT_TEAM = 4XXN38ECKL;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = armv7;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = armv7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiClass_SDK/HiClass_SDK-Prefix.pch";
+				INFOPLIST_FILE = "HiClass_SDK/HiClass_SDK-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = "$(APP_LAUNCHSCREEN)";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = HiClass_Beta;
+		};
+		DBC7FCBA27D1FB2000C15442 /* HiClass_Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E734053590F2A0A00FB5B9 /* Pods-HiClass_SDK_Tests.hiclass_beta.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiClass_SDK_Example.app/HiClass_SDK_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = HiClass_Beta;
+		};
+		DBC7FCBE27D1FB7E00C15442 /* ZhiYu_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ZhiYu_Release;
+		};
+		DBC7FCBF27D1FB7E00C15442 /* ZhiYu_Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC7FCB027D1F9D900C15442 /* ZhiYu_Release.xcconfig */;
+			buildSettings = {
+				APP_LAUNCHSCREEN = LaunchScreenZhiYu;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON)";
+				CODE_SIGN_ENTITLEMENTS = HiClass_SDK/HiClass_SDK.entitlements;
+				DEVELOPMENT_TEAM = 4XXN38ECKL;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = armv7;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = armv7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiClass_SDK/HiClass_SDK-Prefix.pch";
+				INFOPLIST_FILE = "HiClass_SDK/HiClass_SDK-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = "$(APP_LAUNCHSCREEN)";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = ZhiYu_Release;
+		};
+		DBC7FCC027D1FB7E00C15442 /* ZhiYu_Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809BA5D0EAD20C6F4BD8E72E /* Pods-HiClass_SDK_Tests.zhiyu_release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiClass_SDK_Example.app/HiClass_SDK_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = ZhiYu_Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "HiClass_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* HiClass_Debug */,
+				DBC7FCB827D1FB2000C15442 /* HiClass_Beta */,
+				DBC7FCAB27D1E9C800C15442 /* ZhiYu_Dev */,
+				6003F5BE195388D20070C39A /* HiClass_Release */,
+				DBC7FCBE27D1FB7E00C15442 /* ZhiYu_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = HiClass_Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "HiClass_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* HiClass_Debug */,
+				DBC7FCB927D1FB2000C15442 /* HiClass_Beta */,
+				DBC7FCAC27D1E9C800C15442 /* ZhiYu_Dev */,
+				6003F5C1195388D20070C39A /* HiClass_Release */,
+				DBC7FCBF27D1FB7E00C15442 /* ZhiYu_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = HiClass_Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "HiClass_SDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* HiClass_Debug */,
+				DBC7FCBA27D1FB2000C15442 /* HiClass_Beta */,
+				DBC7FCAD27D1E9C800C15442 /* ZhiYu_Dev */,
+				6003F5C4195388D20070C39A /* HiClass_Release */,
+				DBC7FCC027D1FB7E00C15442 /* ZhiYu_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = HiClass_Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module YSLiveSDK {
+  umbrella header "YSLiveSDK.h"
+
+  export *
+  module * { export * }
+}

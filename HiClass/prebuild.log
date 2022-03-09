@@ -1,0 +1,4 @@
+hello world
+INFO_PLIST_FILE=/Users/jiafujia/Desktop/HiClass/HiClass/HiClass/ZhiYuInfo/zh-Hans.lproj/InfoPlist.strings
+FILE_LOCATION=/Users/jiafujia/Library/Developer/Xcode/DerivedData/HiClass_SDK-galajuyphrluwlhcmsymstbjunyg/Build/Products/ZhiYu_Dev-iphoneos/HiClass_SDK.app/zh-Hans.lproj/InfoPlist.strings
+cp: /Users/jiafujia/Desktop/HiClass/HiClass/HiClass/ZhiYuInfo/zh-Hans.lproj/InfoPlist.strings: No such file or directory

@@ -1,0 +1,11 @@
+framework module HIClassSwift_SDK {
+  umbrella header "HIClassSwift_SDK.h"
+
+  export *
+  module * { export * }
+}
+
+module HIClassSwift_SDK.Swift {
+    header "HIClassSwift_SDK-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+framework module JHKVideoPlayerSDK {
+  umbrella header "JHKVideoPlayerSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module JHKVideoPlayerSDK.Swift {
+    header "JHKVideoPlayerSDK-Swift.h"
+    requires objc
+}

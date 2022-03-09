@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HICMyScoreViewController">
+            <connections>
+                <outlet property="scoreTaskTableView" destination="fKG-yD-5DP" id="7c2-Jq-Jmd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="33" sectionFooterHeight="24" translatesAutoresizingMaskIntoConstraints="NO" id="fKG-yD-5DP">
+                    <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="fKG-yD-5DP" secondAttribute="bottom" id="UZX-bD-6ti"/>
+                <constraint firstItem="fKG-yD-5DP" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="n3Q-4j-lan"/>
+                <constraint firstItem="fKG-yD-5DP" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="qNG-ax-vPn"/>
+                <constraint firstItem="fKG-yD-5DP" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="44" id="seS-ef-X3Z"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="34.821428571428569"/>
+        </view>
+    </objects>
+</document>

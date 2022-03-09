@@ -1,0 +1,31 @@
+//
+//  CloudHubWhiteBoardKit.h
+//  CloudHubWhiteBoardKit
+//
+//  Created by jiang deng on 2020/11/3.
+//
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+//! Project version number for CloudHubWhiteBoardKit.
+FOUNDATION_EXPORT double CloudHubWhiteBoardKitVersionNumber;
+
+//! Project version string for CloudHubWhiteBoardKit.
+FOUNDATION_EXPORT const unsigned char CloudHubWhiteBoardKitVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <CloudHubWhiteBoardKit/PublicHeader.h>
+
+#import <CloudHubRTC/CloudHubRTC.h>
+
+#import "CHWhiteBoardKitDefines.h"
+#import "CHWhiteBoardKitEnum.h"
+//#import "CHWhiteBoardKitUtil.h"
+
+#import "CloudHubWhiteBoardKit.h"
+#import "CHBrushToolsConfigs.h"
+
+#import "CHFileModel.h"
+
+#import "CHWhiteBoardView.h"
+

@@ -1,0 +1,6 @@
+framework module iOS_LogReport_CPN {
+  umbrella header "iOS_LogReport_CPN-umbrella.h"
+
+  export *
+  module * { export * }
+}

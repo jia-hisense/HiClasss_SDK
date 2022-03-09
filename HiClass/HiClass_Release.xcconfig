@@ -1,0 +1,44 @@
+//
+//  HiClass_Dev.xcconfig
+//  HiClass
+//
+//  Created by jiafujia on 2022/2/25.
+//  Copyright © 2022 hisense. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-HiClass_SDK/Pods-HiClass_SDK.hiclass_release.xcconfig"
+
+APP_NAME = 海信学堂
+APP_ICON = AppIcon-hiclass
+APP_LAUNCHSCREEN = LaunchScreenHiClass
+APP_BUNDLE_ID = com.hisense.hiclass
+
+// 阿里推送
+APP_ALI_KEY = 29167270
+APP_ALI_SECRET = 70b1a6399030a7f6100c8f684d49d79d
+
+// 日志上报
+APP_LOGREPORT_KEY = 1183345212
+APP_BUGLY_ID = edb6822d03
+
+// 应用接口域名
+APP_ACC_DOMAIN = https:/$()/acc-hedu.hismarttv.com
+// 默认考试域名
+APP_EXAM_DOMAIN = https:/$()/api-mobile-hedu-mobi.hismarttv.com
+// 默认评论域名\HEDU通用域名
+APP_COMMENTS_DOMAIN = https:/$()/api-hedu-mobi.hismarttv.com
+// 应用升级域名
+APP_UPGRADE_DOMAIN = http:/$()/upgrade-phone-hedu.hismarttv.com
+// 网页链接域名
+APP_Web_DOMAIN = https:/$()/web-hedu.hismarttv.com
+// 文件上传域名
+APP_UPLOAD_DOMAIN = https:/$()/upload-hedu-mobi.hismarttv.com
+APP_DOC_CDN_DOMAIN = https:/$()/doc-cdn-hedu.hismarttv.com
+APP_GPS_DOMAIN = https:/$()/api-gps-hedu.hismarttv.com
+// 推送域名
+APP_PUSH_DOMAIN = https:/$()/msg-hedu-mobi.hismarttv.com
+// App Store链接地址
+APP_APPSTORE_URL = @""

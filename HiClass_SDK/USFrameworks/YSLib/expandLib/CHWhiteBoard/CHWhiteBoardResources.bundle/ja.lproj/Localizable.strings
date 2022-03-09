@@ -1,0 +1,28 @@
+/*
+ Localizable.strings
+ libMeetings
+ 
+ Created by miniMac on 16/2/24.
+ Copyright © 2016年 macmini. All rights reserved.
+ */
+
+"YSPreload.downloading" = "コースウェアをロードしている";
+"YSPreload.unzipping"   = "コースウェアを伸張しています";
+"YSPreload.skip"        = "スキップ";
+
+"SmallBoard_Name"           = "小さな黒板";
+"SmallBoard_Stage_Prepare"  = "準備段階";
+"SmallBoard_Stage_Answer"   = "解答段階";
+"SmallBoard_Stage_Comment"  = "講評フェーズ";
+"SmallBoard_Distribution"   = "配布";
+"SmallBoard_DistributionAgain" = "再配布";
+
+"SmallBoard_Calls"          = "単独音声";
+"SmallBoard_EndCalls"       = "終了音声";
+"SmallBoard_EndCallsTag"    = "音声通信中、切断后に切り替えを行う必要がある";
+"SmallBoard_Withdrawn"      = "回収";
+"SmallBoard_BeenWithdrawn"  = "小さな黒板は回収されました";
+"SmallBoard_DeletePictureTag" = "小さな黒板の画像を削除するかどうか";
+"SmallBoard_Calling"        = "プライベートトーク中";
+
+"SmallBoard_cancleSmall"    = "かどうか確認閉鎖小黑板";
